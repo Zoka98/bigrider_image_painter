@@ -24,7 +24,7 @@ class SelectionItems extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 2.0),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(4.0),
-          color: isSelected ? Colors.blue : Colors.transparent),
+          color: isSelected ? Color(0xff2cf407) : Colors.transparent),
       child: ListTile(
         leading: IconTheme(
           data: const IconThemeData(opacity: 1.0),
@@ -80,10 +80,7 @@ List<ModeData> paintModes(TextDelegate textDelegate) => [
           icon: Icons.power_input,
           mode: PaintMode.dashLine,
           label: textDelegate.dashLine),
-      ModeData(
-          icon: Icons.text_format,
-          mode: PaintMode.text,
-          label: textDelegate.text),
+      
     ];
 
 @immutable

@@ -1,4 +1,4 @@
-name: image_painter
+name: bigrider_image_painter
 description: A flutter package for drawing over images. Supports color,
   strokeWidth, different paintModes and exporting image.
 version: 0.7.1

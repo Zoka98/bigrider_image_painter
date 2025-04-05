@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import '../image_painter.dart';
+import '../bigrider_image_painter.dart';
 
 class SignaturePainter extends CustomPainter {
   final Color backgroundColor;

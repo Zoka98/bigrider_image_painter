@@ -3,7 +3,7 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 
-import '../image_painter.dart';
+import '../bigrider_image_painter.dart';
 import '_signature_painter.dart';
 
 class ImagePainterController extends ChangeNotifier {

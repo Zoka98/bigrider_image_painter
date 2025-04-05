@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../image_painter.dart';
+import '../../bigrider_image_painter.dart';
 
 class SelectionItems extends StatelessWidget {
   final bool isSelected;
